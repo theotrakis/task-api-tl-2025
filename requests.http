@@ -1,0 +1,18 @@
+GET http://127.0.0.1:5000/tasks
+
+###
+POST http://127.0.0.1:5000/tasks
+Content-Type: application/json
+
+{
+  "username": "dodot",
+  "title": "First task",
+  "description": "My first API task",
+  "deadline": "2026-01-31"
+}
+
+###
+GET http://127.0.0.1:5000/tasks/1
+
+###
+DELETE http://127.0.0.1:5000/tasks/1
