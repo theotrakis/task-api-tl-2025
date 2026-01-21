@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Runtime data (JSON storage)
+data/tasks.json
+data/task.json
+
+# Pytest cache
+.pytest_cache/
